@@ -1,0 +1,116 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #EEEFF2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header .navigation {
+  padding: 40px 57px 0 15px;
+  max-width: 1265px;
+  margin: auto;
+}
+
+header .navigation nav ul li a {
+  font-weight: 600;
+  color: #6E757C;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header .navigation nav ul li a.btn {
+  background: linear-gradient(315deg, #4048EF 0%, #5A7BEF 100%);
+  border-radius: 16px;
+  color: #fff;
+  width: 112px;
+  padding: 16px 0;
+  margin-left: 24px;
+}
+
+header .navigation nav ul.navbar1 li a {
+  margin-right: 34px;
+}
+
+section.banner-section {
+  height: calc(100vh - 56px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+section.banner-section .banner-content {
+  max-width: 1337px;
+  margin-left: auto;
+  padding: 0 49px;
+}
+
+section.banner-section .banner-content .banner-txt {
+  width: 39%;
+}
+
+section.banner-section .banner-content .banner-txt h1 {
+  font-weight: 600;
+  font-size: 72px;
+  color: #272E35;
+}
+
+section.banner-section .banner-content .banner-txt p {
+  margin-top: 4px;
+  font-size: 20px;
+  color: #6E757C;
+  max-width: 501px;
+  line-height: 24px;
+}
+
+section.banner-section .banner-content .banner-txt .banner-btn {
+  margin-top: 40px;
+}
+
+section.banner-section .banner-content .banner-txt .banner-btn a {
+  border-radius: 16px;
+  padding: 15px 0;
+  color: #272E35;
+  border: 2px solid #272E35;
+  width: 213px;
+  background: none;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+section.banner-section .banner-content .banner-txt .banner-btn a:nth-of-type(1) {
+  background: linear-gradient(296.57deg, #4048EF -2.08%, #5A7BEF 111.25%);
+  border: none;
+  color: #fff;
+  width: 158px;
+}
+
+section.banner-section .banner-content .banner-img {
+  width: 60%;
+}
+/*# sourceMappingURL=style.css.map */

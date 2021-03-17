@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #EEEFF2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+// Container Width
+// @media (min-width: 1300px) {
+//     .container {
+//         max-width: 1265px;
+//     }
+// }
+// Header Section
+header {
+    .navigation {
+        padding: 40px 57px 0 15px;
+        max-width: 1265px;
+        margin: auto;
+        nav {
+            ul {
+                li {
+                    a {
+                        font-weight: 600;
+                        color: #6E757C;
+                        transition: .3s ease;
+                    }
+                    a.btn {
+                        background: linear-gradient(315deg, #4048EF 0%, #5A7BEF 100%);
+                        border-radius: 16px;
+                        color: #fff;
+                        width: 112px;
+                        padding: 16px 0;
+                        margin-left: 24px;
+                    }
+                }
+            }
+            ul.navbar1 {
+                li {
+                    a {
+                        margin-right: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Banner Section
+section.banner-section {
+    height: calc(100vh - 56px);
+    display: flex;
+    align-items: flex-end;
+    .banner-content {
+        max-width: 1337px;
+        margin-left: auto;
+        padding: 0 49px;
+        .banner-txt {
+            width: 39%;
+            h1 {
+                font-weight: 600;
+                font-size: 72px;
+                color: #272E35;
+            }
+            p {
+                margin-top: 4px;
+                font-size: 20px;
+                color: #6E757C;
+                max-width: 501px;
+                line-height: 24px;
+            }
+            .banner-btn {
+                margin-top: 40px;
+                a {
+                    border-radius: 16px;
+                    padding: 15px 0;
+                    color: #272E35;
+                    border: 2px solid #272E35;
+                    width: 213px;
+                    background: none;
+                    transition: .3s ease;
+                }
+                a:nth-of-type(1) {
+                    background: linear-gradient( 296.57deg, #4048EF -2.08%, #5A7BEF 111.25%);
+                    border: none;
+                    color: #fff;
+                    width: 158px;
+                }
+            }
+        }
+        .banner-img {
+            width: 60%;
+        }
+    }
+}
