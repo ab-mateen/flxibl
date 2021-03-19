@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/style/css/style.css">
     <title>Flxibl</title>
 </head>
@@ -19,13 +21,14 @@
     <header>
         <!-- Navigation -->
         <div class="navigation">
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-lg">
                 <!-- Brand -->
                 <a class="navbar-brand" rel="noopener" href="/"><img src="assets/img/Logo.png" alt="Flxibl Logo"></a>
 
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="d-block"></span>
+                        <span class="d-block"></span>
                     </button>
                 <!-- Navbar links -->
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -43,7 +46,7 @@
                             <a class="nav-link" href="/">Contact</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav align-items-center ml-auto">
+                    <ul class="navbar-nav navbar2 align-items-center ml-auto">
                         <li class="nav-item">
                             <a class="nav-link font-weight-bold" href="/">Login</a>
                         </li>
@@ -63,8 +66,8 @@
             <div class="row justify-content-between align-items-center">
                 <!-- Start Banner Col 1 -->
                 <!-- <div class="col-md-5"> -->
-                <div class="banner-txt banner-col" data-aos="fade-up" data-aos-easing="ease">
-                    <h1>Flex with freelancers</h1>
+                <div class="banner-txt banner-col">
+                    <h1 data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">Flex with freelancers</h1>
                     <p>Create your own freelance network, book instantly and pay effortlessly. The new ‘Flxibl’ way of working.</p>
                     <div class="banner-btn">
                         <a href="/" class="btn btn-primary font-weight-bold mr-2">Try it for free</a>
@@ -75,8 +78,16 @@
                 <!-- End Banner Col 1 -->
                 <!-- Start Banner Col 2 -->
                 <!-- <div class="col-md-7"> -->
-                <div class="banner-img banner-col" data-aos="fade-left" data-aos-easing="ease">
-                    <img src="assets/img/banner-img.png" alt="People">
+                <div class="banner-img banner-col">
+                    <div class="img-container w-100 position-relative">
+                        <span class="img-left position-absolute d-inline-block" data-aos="fade-right" data-aos-easing="ease"><img src="assets/img/banner-left.png" alt=""></span>
+                        <span class="position-relative d-inline-block"><img class="img-mid" src="assets/img/banner-mid.png" alt=""></span>
+                        <span class="img-right position-absolute d-inline-block" data-aos="fade-left" data-aos-easing="ease"><img src="assets/img/banner-right.png" alt=""></span>
+                    </div>
+                    <div class="banner-btn banner-btn2">
+                        <a href="/" class="btn font-weight-bold">Try it for free</a>
+                        <a href="/" class="btn font-weight-bold"><span class="d-inline-block mr-2"><i class="fas fa-caret-right"></i></span> See how it works</a>
+                    </div>
                 </div>
                 <!-- </div> -->
                 <!-- End Banner Col 2 -->
@@ -85,15 +96,390 @@
         </div>
     </section>
     <!-- End Banner Section -->
+    <!-- Serv Section -->
+    <section class="serv-sec">
+        <div class="container">
+            <div class="ser-content">
+                <p class="sub-headline text-center" data-aos="fade-up" data-aos-easing="ease">Scale your businesses like thousands of others by building your own freelance workforce</p>
+                <div class="row justify-content-between">
+                    <!-- Start Col 1 -->
+                    <div class="serv-main-col">
+                        <div class="serv-col-1">
+                            <h6><span class="d-inline-block"><img src="assets/img/serv-sec/source.png" alt="Search icon"></span> Source talent</h6>
+                        </div>
+                    </div>
+                    <!-- Start Col 2 -->
+                    <div class="serv-main-col">
+                        <div class="serv-col-2">
+                            <h6><span class="d-inline-block"><img src="assets/img/serv-sec/build-network.png" alt="User Icon"></span> Build a network</h6>
+                        </div>
+                    </div>
+                    <!-- Start Col 3 -->
+                    <div class="serv-main-col">
+                        <div class="serv-col-3">
+                            <h6><span class="d-inline-block"><img src="assets/img/serv-sec/book-instant.png" alt="Calender"></span> Book instantly</h6>
+                        </div>
+                    </div>
+                    <!-- Start Col 4 -->
+                    <div class="serv-main-col">
+                        <div class="serv-col-4">
+                            <h6><span class="d-inline-block"><img src="assets/img/serv-sec/pay.png" alt="Credit Card"></span> Pay effortlessly</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Life Easy Section -->
+    <section class="life-easy-sec">
+        <div class="container">
+            <div class="life-easy-content">
+                <h2 class="text-center text-dark" data-aos="fade-up" data-aos-easing="ease">Making everyones life easier</h2>
+                <div class="life-easy-row row justify-content-between">
+                    <div class="life-col life-col-1">
+                        <div class="life-inner-col">
+                            <h4 data-aos="fade-up" data-aos-easing="ease">Businesses</h4>
+                            <p>We connect businesses with their freelancers so that outsourcing is just as efficient and cost-effective as insourcing.</p>
+                            <a href="/" class="btn-border">Find out more</a>
+                        </div>
+                    </div>
+                    <div class="life-col life-col-2 position-relative">
+                        <div class="life-inner-col">
+                            <div class="globe position-absolute" data-aos="animation-translate-down" data-aos-duration="1000" data-aos-delay="400">
+                                <img src="assets/img/life-easy/globe.png" alt="World Globe">
+                            </div>
+                            <div class="globe-base">
+                                <img src="assets/img/life-easy/globe-base.png" alt="Globe Base">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="life-col life-col-3">
+                        <div class="life-inner-col">
+                            <h4 data-aos="fade-up" data-aos-easing="ease">Freelancers</h4>
+                            <p>We connect freelancers with their clients so that they’re easily accessible. We also automate everyones admin.</p>
+                            <a href="/" class="btn-border">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="life-easy-row life-easy-row2 row justify-content-between">
+                    <div class="life-col life-col-1">
+                        <div class="life-inner-col">
+                            <h2 class="d1 text-white">100<sup>+</sup></h2>
+                            <a href="/" class="btn">Countries supported</a>
+                        </div>
+                    </div>
+                    <div class="life-col life-col-4">
+                        <div class="life-inner-col">
+                            <h2 class="d1 text-white">10k<sup>+</sup></h2>
+                            <a href="/" class="btn">Pre-registered businesses</a>
+                        </div>
+                    </div>
+                    <div class="life-col life-col-3">
+                        <div class="life-inner-col">
+                            <h2 class="d1 text-white">200k<sup>+</sup></h2>
+                            <a href="/" class="btn">Pre-registered freelancers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Empower Section -->
+    <section class="empower-sec">
+        <div class="container">
+            <div class="empower-content">
+                <div class="empower-row row justify-content-between">
+                    <div class="col-md-7">
+                        <div class="empower-col empower-col-1">
+                            <div class="empower-img">
+                                <img src="assets/img/empower/main-img.png" class="main d-inline-block position-absolute" data-aos="fade-down" data-aos-easing="ease" alt="">
+                                <img src="assets/img/empower/side-img.png" class="side d-inline-block" alt="">
+                            </div>
+                            <div class="empower-head">
+                                <h2 data-aos="fade-up" data-aos-easing="ease">Empowering managers to scale quickly</h2>
+                                <p>We’re enabling managers to book freelance resource as and when they need it whilst giving key stakeholders visibility and control.</p>
+                                <div class="empower-btn">
+                                    <a href="/" class="btn btn-bg btn-border text-white font-weight-bold">Try it for free</a>
+                                    <a href="/" class="btn btn-border font-weight-bold">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-md-0">
+                        <div class="empower-col empower-col-2">
+                            <div class="empower-txt empower-txt1 d-flex justify-content-between">
+                                <div class="empower-txt-img">
+                                    <img src="assets/img/empower/efficient.png" alt="">
+                                </div>
+                                <div class="empower-txt-cont">
+                                    <h6>Built for efficiency</h6>
+                                    <p>Our intuative user-interface makes building and connnecting with your freelance workforce quick and effortless.</p>
+                                </div>
+                            </div>
+                            <div class="empower-txt empower-txt2 d-flex justify-content-between">
+                                <div class="empower-txt-img">
+                                    <img src="assets/img/empower/record.png" alt="">
+                                </div>
+                                <div class="empower-txt-cont">
+                                    <h6>Keeping a record of everything</h6>
+                                    <p>All freelancer interactions and bookings are consolidated to give you key insights into your business.</p>
+                                </div>
+                            </div>
+                            <div class="empower-txt empower-txt3 d-flex justify-content-between">
+                                <div class="empower-txt-img">
+                                    <img src="assets/img/empower/save-time.png" alt="">
+                                </div>
+                                <div class="empower-txt-cont">
+                                    <h6>Saves time and admin</h6>
+                                    <p>Built to book talent only when you need it to save on full-time headcount and outsourcing admin tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Connect clients Section -->
+    <section class="connect-client-sec empower-sec">
+        <div class="container">
+            <div class="connect-client empower-content">
+                <div class="connect-client-row empower-row row justify-content-between">
+                    <div class="col-md-6">
+                        <div class="connect-client-col empower-col empower-col-1 pl-0">
+                            <div class="empower-head">
+                                <h2 data-aos="fade-up" data-aos-easing="ease">Connecting freelancers with their clients</h2>
+                                <p>We’re bridging the gap between freelancers and companies, making sure suitable talent is instantly accessible and easy to hire.</p>
+                                <div class="empower-btn">
+                                    <a href="/" class="btn btn-bg btn-border text-white font-weight-bold">Try it for free</a>
+                                    <a href="/" class="btn btn-border font-weight-bold">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="connect-client-col empower-col empower-col-2">
+                            <div class="main-img position-absolute" data-aos="fade-up" data-aos-easing="ease">
+                                <img src="assets/img/conect-freelancers/main.png" alt="">
+                            </div>
+                            <div class="side-img">
+                                <img src="assets/img/conect-freelancers/side img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Static Img Section -->
+    <section class="static-img">
+        <div class="container">
+            <div class="img-container">
+                <img src="assets/img/static-img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Testimonial Section -->
+    <section class="testimonial-sec">
+        <div class="container">
+            <div class="testimonial-head">
+                <h2 class="text-center">What people are saying</h2>
+            </div>
+            <div class="testimonial-content">
+                <div class="testimonial-slider owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="test-slide test-slide1">
+                            <h5>“ Flxibl makes booking freelancers a breeze. I’ve saved hours of admin and my freelancers say the same. 5 stars!!! ”</h5>
+                            <div class="review-star">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block">
+                            </div>
+                            <h6 class="title">Austin Blair</h6>
+                            <p>Head of Production, Ounass</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test-slide test-slide2">
+                            <h5>“ I’ve tried every Freelance Management System out there, Flxibl is by far the easiest to use and enables my team to scale quickly. ”</h5>
+                            <div class="review-star">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block">
+                            </div>
+                            <h6 class="title">Nicole Saxby</h6>
+                            <p>Head of Styling, noon</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test-slide test-slide3">
+                            <h5>“ I used to have a hard time keeping track of our freelancers, now it’s easier than ever! ”</h5>
+                            <div class="review-star">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block">
+                            </div>
+                            <h6 class="title">Teresa Karpinska</h6>
+                            <p>Studio Manager, Bloomingdales</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test-slide test-slide1">
+                            <h5>“ Flxibl makes booking freelancers a breeze. I’ve saved hours of admin and my freelancers say the same. 5 stars!!! ”</h5>
+                            <div class="review-star">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block">
+                            </div>
+                            <h6 class="title">Austin Blair</h6>
+                            <p>Head of Production, Ounass</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test-slide test-slide2">
+                            <h5>“ I’ve tried every Freelance Management System out there, Flxibl is by far the easiest to use and enables my team to scale quickly. ”</h5>
+                            <div class="review-star">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block">
+                            </div>
+                            <h6 class="title">Nicole Saxby</h6>
+                            <p>Head of Styling, noon</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="test-slide test-slide3">
+                            <h5>“ I used to have a hard time keeping track of our freelancers, now it’s easier than ever! ”</h5>
+                            <div class="review-star">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block mr-2">
+                                <img src="assets/img/star.png" alt="Blue Star" class="d-inline-block">
+                            </div>
+                            <h6 class="title">Teresa Karpinska</h6>
+                            <p>Studio Manager, Bloomingdales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- get Start Section -->
+    <section class="get-start-sec empower-sec">
+        <div class="container">
+            <div class="get-start-cont empower-content">
+                <div class="get-start-row empower-row row justify-content-between">
+                    <div class="col-md-6">
+                        <div class="get-start-col empower-col empower-col-1 pl-0">
+                            <div class="get-start-head empower-head">
+                                <h2 class="d1" data-aos="fade-up" data-aos-easing="ease">Get started with Flxibl today</h2>
+                                <p>Just sign up, invite your freelancers to your network and start booking. Flxibl takes care of everything else.</p>
+                                <div class="empower-btn">
+                                    <a href="/" class="btn btn-bg btn-border text-white font-weight-bold">Try it for free</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-md-0 position-relative">
+                        <div class="get-start-col empower-col empower-col-2">
+                            <img src="assets/img/get-start.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="foot-content">
+                <div class="foot-row row justify-content-between align-items-end">
+                    <div class="col-md-4">
+                        <div class="foot-col foot-col1">
+                            <a href="/" class="d-block"><img src="assets/img/Logo.png" alt="Logo"></a>
+                            <p>Scale your businesses like thousands of others by building your own freelance workforce</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="foot-col foot-col2">
+                            <ul class="d-flex justify-content-end">
+                                <li><a href="/">Businesses</a></li>
+                                <li><a href="/">Freelancers</a></li>
+                                <li><a href="/">About Us</a></li>
+                                <li><a href="/">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-row foot-row2 row justify-content-between border-0 pb-0 pt-4">
+                    <div class="col-md-3">
+                        <div class="foot-col foot-col3">
+                            <a href="/" class="d-block">Privacy policy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="foot-col foot-col4">
+                            <ul class="d-flex justify-content-end">
+                                <li><a href="/"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
         AOS.init({
             easing: 'ease-out-back',
             duration: 1500
+        });
+    </script>
+    <script>
+        $('.testimonial-slider.owl-carousel').owlCarousel({
+            dots: false,
+            nav: true,
+            loop: true,
+            autoplay: true,
+            margin: 50,
+            autoplayHoverPause: true,
+            navText: ["<i class='fal fa-long-arrow-left'></i>", "<i class='fal fa-long-arrow-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
         });
     </script>
 </body>
