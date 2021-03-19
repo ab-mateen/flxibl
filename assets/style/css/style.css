@@ -1442,6 +1442,21 @@ section.get-start-sec.empower-sec .get-start-cont.empower-content .get-start-row
   }
 }
 
+section.get-start-sec.empower-sec .get-start-cont.empower-content .get-start-row.empower-row:before {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  background: linear-gradient(135.15deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+  mix-blend-mode: overlay;
+  -webkit-filter: blur(86px);
+          filter: blur(86px);
+  z-index: 0;
+}
+
 @media (max-width: 1024px) {
   section.get-start-sec.empower-sec .get-start-cont.empower-content .get-start-row.empower-row .get-start-col.empower-col.empower-col-1 .get-start-head.empower-head {
     margin-top: 42px;

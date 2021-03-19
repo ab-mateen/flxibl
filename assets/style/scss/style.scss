@@ -1064,6 +1064,19 @@ section.get-start-sec.empower-sec {
             @media (max-width: 600px) {
                 padding: 0px 0 188px 7px;
             }
+            &:before {
+                content: '';
+                position: absolute;
+                width: 25%;
+                height: 55%;
+                left: 0;
+                top: 0;
+                border-radius: 50%;
+                background: linear-gradient( 135.15deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+                mix-blend-mode: overlay;
+                filter: blur(86px);
+                z-index: 0;
+            }
             .get-start-col.empower-col.empower-col-1 {
                 .get-start-head.empower-head {
                     @media (max-width: 1024px) {
