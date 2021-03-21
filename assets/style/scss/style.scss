@@ -597,8 +597,8 @@ section.life-easy-sec {
                 @media (max-width: 1024px) {
                     width: 16%;
                 }
-                @media (max-width: 1024px) {
-                    width: 100%;
+                @media (max-width: 600px) {
+                    // width: 100%;
                     width: 40%;
                     margin: 51px auto 56px;
                 }
@@ -614,6 +614,9 @@ section.life-easy-sec {
                     opacity: 1;
                     transition-timing-function: ease;
                     transition-delay: .4s;
+                    @media (max-width: 1024px) {
+                        top: -6px;
+                    }
                     img {
                         @media (max-width: 1024px) {
                             max-width: 100px;

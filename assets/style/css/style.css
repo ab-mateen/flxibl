@@ -792,9 +792,8 @@ section.life-easy-sec .life-easy-content .life-easy-row .life-col.life-col-2 {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
   section.life-easy-sec .life-easy-content .life-easy-row .life-col.life-col-2 {
-    width: 100%;
     width: 40%;
     margin: 51px auto 56px;
   }
@@ -816,6 +815,12 @@ section.life-easy-sec .life-easy-content .life-easy-row .life-col.life-col-2 .gl
           transition-timing-function: ease;
   -webkit-transition-delay: .4s;
           transition-delay: .4s;
+}
+
+@media (max-width: 1024px) {
+  section.life-easy-sec .life-easy-content .life-easy-row .life-col.life-col-2 .globe {
+    top: -6px;
+  }
 }
 
 @media (max-width: 1024px) {
