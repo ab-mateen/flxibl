@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav navbar1 align-items-center ml-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Businesses</a>
+                            <a class="nav-link" href="businesses.html">Businesses</a>
                         </li>
                         <li class="nav-item link">
                             <a class="nav-link" href="/">Freelancers</a>
@@ -457,7 +457,7 @@
     <script>
         AOS.init({
             easing: 'ease-out-back',
-            duration: 1500
+            duration: 1000
         });
     </script>
     <script>
@@ -480,6 +480,11 @@
                     items: 3
                 }
             }
+        });
+    </script>
+    <script>
+        $('.nav-link').click(function() {
+            $(this).addClass("active");
         });
     </script>
 </body>
