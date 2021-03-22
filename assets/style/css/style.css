@@ -2624,4 +2624,160 @@ body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row 
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
 }
+
+body#freelancerPage section.freelancer.fast-sec {
+  margin-top: 107px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-head {
+  margin-bottom: 66px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content div.fast-img img.main {
+  max-width: 529px;
+  margin-left: 38px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content div.fast-txt {
+  margin-top: -95px;
+  padding-left: 43px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content div.fast-txt img {
+  max-width: 77px;
+  margin-left: 4px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content div.fast-txt h4 {
+  max-width: 390px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content div.fast-txt p {
+  max-width: 325px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row2 {
+  margin: 116px 0 20px -105px;
+}
+
+@media (min-width: 769px) {
+  body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row2 .col-md-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 64%;
+            flex: 0 0 64%;
+    max-width: 64%;
+  }
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row2 .col-md-6 div.fast-img img.main {
+  max-width: 739px;
+  margin-left: 22px;
+}
+
+@media (min-width: 769px) {
+  body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row2 .col-md-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 36%;
+            flex: 0 0 36%;
+    max-width: 36%;
+  }
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row2 .col-md-5 div.fast-txt {
+  margin-top: -52px;
+  padding-left: 19px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row2 .col-md-5 div.fast-txt img {
+  max-width: 96px;
+  margin-left: -4px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row3 {
+  margin: 101px 0 0 1px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row3 div.fast-img img.main {
+  max-width: 548px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row3 div.fast-txt {
+  margin-top: 69px;
+  padding-left: 43px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row3 div.fast-txt img {
+  max-width: 90px;
+  margin-left: 4px;
+}
+
+body#freelancerPage section.freelancer.fast-sec .container .fast-content .fast-row3 div.fast-txt p {
+  max-width: 275px;
+}
+
+body#freelancerPage section.control-sec {
+  margin-top: 176px;
+}
+
+body#freelancerPage section.control-sec .container {
+  padding: 0 28px;
+}
+
+body#freelancerPage section.control-sec .container .control-content {
+  background: #F7F7F8;
+  -webkit-box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 21px 93px 123px 78px;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col.control-col1 {
+  padding-top: 135px;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col.control-col1 p {
+  margin: 23px 0 24px;
+  max-width: 407px;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col.control-col1 a {
+  border: 2px solid rgba(39, 46, 53, 0.75);
+  color: #272E35;
+  border-radius: 16px;
+  padding: 14px 0;
+  width: 149px;
+  font-weight: 700;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col2 img.static {
+  margin-left: 33px;
+  max-width: 418px;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col2 span.man {
+  top: 97px;
+  left: 17px;
+  right: 0;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col2 span.man img {
+  max-width: 186px;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col2 span.chart {
+  bottom: 9px;
+  right: -33px;
+}
+
+body#freelancerPage section.control-sec .container .control-content .control-col2 span.chart img {
+  max-width: 150px;
+}
+
+body#freelancerPage section.step-sec {
+  margin-top: 118px;
+}
 /*# sourceMappingURL=style.css.map */

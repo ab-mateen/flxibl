@@ -1931,4 +1931,142 @@ body#freelancerPage {
             }
         }
     }
+    // fast and reliable
+    section.freelancer.fast-sec {
+        margin-top: 107px;
+        .container {
+            .fast-content {
+                .fast-head {
+                    margin-bottom: 66px;
+                }
+                // Slide 1
+                div.fast-img {
+                    img.main {
+                        max-width: 529px;
+                        margin-left: 38px;
+                    }
+                }
+                div.fast-txt {
+                    margin-top: -95px;
+                    padding-left: 43px;
+                    img {
+                        max-width: 77px;
+                        margin-left: 4px;
+                    }
+                    h4 {
+                        max-width: 390px;
+                    }
+                    p {
+                        max-width: 325px;
+                    }
+                }
+                // Slide 2
+                .fast-row2 {
+                    margin: 116px 0 20px -105px;
+                    .col-md-6 {
+                        @media (min-width: 769px) {
+                            flex: 0 0 64%;
+                            max-width: 64%;
+                        }
+                        div.fast-img {
+                            img.main {
+                                max-width: 739px;
+                                margin-left: 22px;
+                            }
+                        }
+                    }
+                    .col-md-5 {
+                        @media (min-width: 769px) {
+                            flex: 0 0 36%;
+                            max-width: 36%;
+                        }
+                        div.fast-txt {
+                            margin-top: -52px;
+                            padding-left: 19px;
+                            img {
+                                max-width: 96px;
+                                margin-left: -4px;
+                            }
+                        }
+                    }
+                }
+                // Slide 3
+                .fast-row3 {
+                    margin: 101px 0 0 1px;
+                    div.fast-img {
+                        img.main {
+                            max-width: 548px;
+                        }
+                    }
+                    div.fast-txt {
+                        margin-top: 69px;
+                        padding-left: 43px;
+                        img {
+                            max-width: 90px;
+                            margin-left: 4px;
+                        }
+                        p {
+                            max-width: 275px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Stay in Control Section
+    section.control-sec {
+        margin-top: 176px;
+        .container {
+            padding: 0 28px;
+            .control-content {
+                background: #F7F7F8;
+                box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.1);
+                border-radius: 24px;
+                padding: 21px 93px 123px 78px;
+                .control-col.control-col1 {
+                    padding-top: 135px;
+                    h2 {}
+                    p {
+                        margin: 23px 0 24px;
+                        max-width: 407px;
+                    }
+                    a {
+                        border: 2px solid rgba(39, 46, 53, 0.75);
+                        color: #272E35;
+                        border-radius: 16px;
+                        padding: 14px 0;
+                        width: 149px;
+                        font-weight: 700;
+                    }
+                }
+                .control-col2 {
+                    img.static {
+                        margin-left: 33px;
+                        max-width: 418px;
+                    }
+                    span.man {
+                        top: 97px;
+                        left: 17px;
+                        right: 0;
+                        margin: auto;
+                        width: fit-content;
+                        img {
+                            max-width: 186px;
+                        }
+                    }
+                    span.chart {
+                        bottom: 9px;
+                        right: -33px;
+                        img {
+                            max-width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Step Section
+    section.step-sec {
+        margin-top: 118px;
+    }
 }
