@@ -2567,4 +2567,61 @@ section.static-img.business .img-container img {
     margin-top: 93px;
   }
 }
+
+body#freelancerPage section.banner-section.business-banner .banner-content .banner-txt h1 {
+  max-width: 1095px;
+}
+
+body#freelancerPage section.banner-section.business-banner .banner-content .banner-img span.img-phone {
+  top: 39px;
+}
+
+body#freelancerPage section.banner-section.business-banner .banner-content .banner-img span:nth-child(2) {
+  margin-top: 0px;
+}
+
+body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row {
+  padding: 42px 0 48px 64px;
+}
+
+body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row .empower-col.empower-col-1 {
+  padding: 99px 0 0 57px;
+}
+
+body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row .get-start-col.empower-col.empower-col-2 img.main {
+  max-width: 525px;
+  margin-top: 91px;
+}
+
+body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row .get-start-col.empower-col.empower-col-2 img {
+  width: 15%;
+}
+
+body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row .get-start-col.empower-col.empower-col-2 img.bubbleLeft {
+  left: 28%;
+  -webkit-animation: up-down 4s 1.2s infinite;
+          animation: up-down 4s 1.2s infinite;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  opacity: 1;
+  -webkit-transition-delay: .4s;
+          transition-delay: .4s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+body#freelancerPage section.cnct-wd .empower-content .get-start-row.empower-row .get-start-col.empower-col.empower-col-2 img.bubbleRight {
+  right: 28%;
+  -webkit-animation: up-down 4s 1.2s infinite;
+          animation: up-down 4s 1.2s infinite;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  opacity: 1;
+  -webkit-transition-delay: .4s;
+          transition-delay: .4s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
 /*# sourceMappingURL=style.css.map */
