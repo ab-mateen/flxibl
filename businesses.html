@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Favicon.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
         <div class="navigation">
             <nav class="navbar navbar-expand-lg">
                 <!-- Brand -->
-                <a class="navbar-brand" rel="noopener" href="/"><img src="assets/img/Logo.png" alt="Flxibl Logo"></a>
+                <a class="navbar-brand" rel="noopener" href="index.html"><img src="assets/img/logo.svg" alt="Flxibl Logo"></a>
 
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -63,30 +64,26 @@
     <section class="banner-section business-banner">
         <div class="banner-content">
             <!-- Start Banner Col 1 -->
-            <!-- <div class="col-md-5"> -->
             <div class="banner-txt banner-col w-100">
                 <h1 data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">Reduce your headcount and your headache</h1>
                 <p>Making external resources feel like internal employees</p>
                 <div class="banner-btn">
                     <a href="/" class="btn btn-primary font-weight-bold mr-2">Try it for free</a>
-                    <a href="/" class="btn btn-primary font-weight-bold ml-2"><span class="d-inline-block mr-2"><i class="fas fa-caret-right"></i></span> See how it works</a>
+                    <a href="/" class="btn btn-primary font-weight-bold ml-2 btn-hover"><span class="d-inline-block mr-2"><i class="fas fa-caret-right"></i></span> See how it works</a>
                 </div>
             </div>
-            <!-- </div> -->
             <!-- End Banner Col 1 -->
             <!-- Start Banner Col 2 -->
-            <!-- <div class="col-md-7"> -->
             <div class="banner-img banner-col w-100">
                 <div class="img-container w-100 position-relative">
-                    <span class="img-phone position-absolute d-inline-block" data-aos="fade-down" data-aos-easing=" ease "><img src="assets/img/business-page/banner/banner-phn.png " alt=" "></span>
-                    <span class="position-relative d-inline-block "><img class="img-icon " src="assets/img/business-page/banner/banner-icons.png " alt=" "></span>
+                    <span class="img-phone position-absolute d-inline-block" data-aos="fade-down" data-aos-easing="ease"><img src="assets/img/business-page/banner/banner-phn.png" alt=""></span>
+                    <span class="position-relative d-inline-block "><img class="img-icon " src="assets/img/business-page/banner/banner-icons.png" alt=""></span>
                 </div>
-                <div class="banner-btn banner-btn2 ">
-                    <a href="/ " class="btn font-weight-bold ">Try it for free</a>
-                    <a href="/ " class="btn font-weight-bold "><span class="d-inline-block mr-2 "><i class="fas fa-caret-right "></i></span> See how it works</a>
+                <div class="banner-btn banner-btn2">
+                    <a href="/" class="btn font-weight-bold">Try it for free</a>
+                    <a href="/" class="btn font-weight-bold btn-hover"><span class="d-inline-block mr-2"><i class="fas fa-caret-right"></i></span> See how it works</a>
                 </div>
             </div>
-            <!-- </div> -->
             <!-- End Banner Col 2 -->
         </div>
     </section>
@@ -99,7 +96,7 @@
                     <div class="col-md-6">
                         <div class="get-start-col empower-col empower-col-1">
                             <div class="get-start-head empower-head mt-0">
-                                <h2 class="d1" data-aos="fade-up" data-aos-easing="ease">Your favorite freelancers at your fingertips</h2>
+                                <h2 class="d1" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200" data-aos-duration="800">Your favorite freelancers at your fingertips</h2>
                                 <p>Connect with your favorite freelancers. Streamline communication, bookings and payments. Keep track of everything.</p>
                                 <div class="empower-btn">
                                     <a href="/" class="btn btn-bg btn-border text-white font-weight-bold">Try it for free</a>
@@ -136,17 +133,21 @@
                     <!-- Start fast Col 1 -->
                     <div class="col-md-6">
                         <div class="fast-img fast-col">
-                            <img src="assets/img/business-page/fast-simple/slide 1/slide1.png" class="main" alt="">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="assets/img/business-page/fast-simple/slide1/slide1-mob.png">
+                                <source media="(max-width: 1024px)" srcset="assets/img/business-page/fast-simple/slide1/slide1-tab.png">
+                                <img src="assets/img/business-page/fast-simple/slide1/slide1.png" class="main" alt="">
+                            </picture>
                         </div>
                     </div>
                     <!-- End Col 1 -->
                     <!-- Start fast Col 2 -->
                     <div class="col-md-5">
                         <div class="fast-txt fast-col position-relative">
-                            <img src="assets/img/business-page/fast-simple/slide 1/Cursor.png" alt="" data-aos="zoom-in" data-aos-easing="ease" class="aos-init aos-animate">
+                            <img src="assets/img/business-page/fast-simple/slide1/Cursor.png" alt="" data-aos="zoom-in" data-aos-easing="ease" class="aos-init aos-animate">
                             <h4 data-aos="fade-up" data-aos-easing="ease" class="aos-init aos-animate">All your freelance admin taken care of</h4>
                             <p>Job posts, bookings, conversations payments and more, all in one user-friendly platform.</p>
-                            <a href="/" class="btn font-weight-bold mr-2">Try it for free</a>
+                            <a href="/" class="btn font-weight-bold mr-2 btn-hover">Try it for free</a>
                         </div>
                     </div>
                     <!-- </div> -->
@@ -159,7 +160,11 @@
                     <!-- Start fast Col 1 -->
                     <div class="col-md-6">
                         <div class="fast-img fast-col">
-                            <img src="assets/img/business-page/fast-simple/slide2/slide2.png" class="main" alt="">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="assets/img/business-page/fast-simple/slide2/slide2-mob.png">
+                                <source media="(max-width: 1024px)" srcset="assets/img/business-page/fast-simple/slide2/slide2-tab.png">
+                                <img src="assets/img/business-page/fast-simple/slide2/slide2.png" class="main" alt="">
+                            </picture>
                         </div>
                     </div>
                     <!-- End Col 1 -->
@@ -169,7 +174,7 @@
                             <img src="assets/img/business-page/fast-simple/slide2/speachbubble.png" alt="" data-aos="zoom-in" data-aos-easing="ease" class="aos-init aos-animate">
                             <h4 data-aos="fade-up" data-aos-easing="ease" class="aos-init aos-animate">External resources feel like internal employees</h4>
                             <p>Tap into your network of talent as and when you need them. Receive instant responses and keep track of everything.</p>
-                            <a href="/" class="btn font-weight-bold mr-2">Try it for free</a>
+                            <a href="/" class="btn font-weight-bold mr-2 btn-hover">Try it for free</a>
                         </div>
                     </div>
                     <!-- </div> -->
@@ -182,7 +187,11 @@
                     <!-- Start fast Col 1 -->
                     <div class="col-md-6">
                         <div class="fast-img fast-col">
-                            <img src="assets/img/business-page/fast-simple/slide3/slide3.png" class="main" alt="">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="assets/img/business-page/fast-simple/slide3/slide3-mob.png">
+                                <source media="(max-width: 1024px)" srcset="assets/img/business-page/fast-simple/slide3/slide3-tab.png">
+                                <img src="assets/img/business-page/fast-simple/slide3/slide3.png" class="main" alt="">
+                            </picture>
                         </div>
                     </div>
                     <!-- End Col 1 -->
@@ -192,7 +201,7 @@
                             <img src="assets/img/business-page/fast-simple/slide3/graph.png" alt="" data-aos="zoom-in" data-aos-easing="ease" class="aos-init aos-animate">
                             <h4 data-aos="fade-up" data-aos-easing="ease" class="aos-init aos-animate">No more booking discrepancies</h4>
                             <p>Scrap the emails or confusing trackers. Provide your team and your freelancers one source of accurate information.</p>
-                            <a href="/" class="btn font-weight-bold mr-2">Try it for free</a>
+                            <a href="/" class="btn font-weight-bold mr-2 btn-hover">Try it for free</a>
                         </div>
                     </div>
                     <!-- </div> -->
@@ -338,8 +347,6 @@
                             <p>Keep in close contact with your freelancers. Send messages or bookings and receive instant responses.</p>
                         </div>
                     </div>
-                </div>
-                <div class="featue-mob featue-mob2 owl-carousel owl-theme d-md-none">
                     <div class="item">
                         <div class="feature-col feature-col5">
                             <div class="feature-icon">
@@ -400,7 +407,7 @@
                             <div class="step-icon">
                                 <img src="assets/img/business-page/steps/step1.svg" alt="">
                             </div>
-                            <a href="#" class="btn btn-bg text-white">Step 1</a>
+                            <a class="btn btn-bg text-white">Step 1</a>
                             <p>Register</p>
                         </div>
                     </div>
@@ -410,7 +417,7 @@
                             <div class="step-icon">
                                 <img src="assets/img/business-page/steps/step2.svg" alt="">
                             </div>
-                            <a href="#" class="btn btn-bg text-white">Step 2</a>
+                            <a class="btn btn-bg text-white">Step 2</a>
                             <p>Add freelancers</p>
                         </div>
                     </div>
@@ -420,7 +427,7 @@
                             <div class="step-icon">
                                 <img src="assets/img/business-page/steps/step3.svg" alt="">
                             </div>
-                            <a href="#" class="btn btn-bg text-white">Step 3</a>
+                            <a class="btn btn-bg text-white">Step 3</a>
                             <p>Chat, book and pay</p>
                         </div>
                     </div>
@@ -430,7 +437,7 @@
                             <div class="step-icon">
                                 <img src="assets/img/business-page/steps/step4.svg" alt="">
                             </div>
-                            <a href="#" class="btn btn-bg text-white">Step 4</a>
+                            <a class="btn btn-bg text-white">Step 4</a>
                             <p>Keep track of it all</p>
                         </div>
                     </div>
@@ -556,7 +563,7 @@
                                 <h2 class="d1 " data-aos="fade-up " data-aos-easing="ease ">Get started with Flxibl today</h2>
                                 <p>Just sign up, invite your freelancers to your network and start booking. Flxibl takes care of everything else.</p>
                                 <div class="empower-btn ">
-                                    <a href="/ " class="btn btn-bg btn-border text-white font-weight-bold ">Try it for free</a>
+                                    <a href="/ " class="btn btn-bg btn-border text-white font-weight-bold ">Try it free</a>
                                 </div>
                             </div>
                         </div>
@@ -578,7 +585,7 @@
                 <div class="foot-row row justify-content-between align-items-end ">
                     <div class="col-md-4 ">
                         <div class="foot-col foot-col1 ">
-                            <a href="/ " class="d-block "><img src="assets/img/Logo.png " alt="Logo "></a>
+                            <a href="index.html" class="d-block "><img src="assets/img/logo.svg" alt="Logo "></a>
                             <p>Scale your businesses like thousands of others by building your own freelance workforce</p>
                         </div>
                     </div>
@@ -596,7 +603,7 @@
                 <div class="foot-row foot-row2 row justify-content-between border-0 pb-0 pt-4 ">
                     <div class="col-md-3 ">
                         <div class="foot-col foot-col3 ">
-                            <a href="/ " class="d-block ">Privacy policy</a>
+                            <a href="privacy-policy.html" class="d-block ">Privacy policy</a>
                         </div>
                     </div>
                     <div class="col-md-4 ">
@@ -669,8 +676,8 @@
     </script>
     <script>
         $(document).ready(function() {
-            $('a.nav-link').click(function() {
-                $('li.nav-item').toggleClass('active');
+            $('ul.nav.navbar-nav li a').click(function() {
+                $(this).toggleClass('active');
             });
         });
         $(document).ready(function() {
